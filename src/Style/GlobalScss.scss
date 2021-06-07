@@ -1,0 +1,48 @@
+// Variables
+$green1 : #77AAAD;
+$green2 : #9DC3C1;
+$green3 : #D8E6E7;
+$gray1 : #6E7783;
+
+// ir_pm
+%ir_pm{
+    display:block; 
+    overflow:hidden; 
+    font-size:0; 
+    line-height:0; 
+    text-indent:-9999px;
+}
+
+//ir_so
+%ir_so{
+    display:block; 
+    overflow:hidden; 
+    position:relative; 
+    z-index:-1000;
+    width: 0;
+    height: 0;
+}
+
+// Flex Center
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Flex Right
+%flex-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+div.logoBottom{
+    position: absolute;
+    bottom: 1.5rem;
+    width: 100%;
+    text-align: center;
+    img{
+        width: 2rem;
+    }
+}
