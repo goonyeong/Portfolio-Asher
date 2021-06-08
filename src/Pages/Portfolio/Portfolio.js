@@ -20,8 +20,7 @@ const Portfolio = () => {
         ],
         description : [
             "\"React로 만든 개인 포트폴리오 페이지입니다.", 
-            "styled-components와 SCSS를 함께 사용하여 스타일링 하였습니다.", 
-            "Components 재사용을 위한 여러 시도를 했습니다.\""
+            "styled-components와 SCSS를 함께 사용하여 스타일링 하였습니다.\""
         ],
         
         challenges : [
