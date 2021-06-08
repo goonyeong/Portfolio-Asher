@@ -19,22 +19,21 @@ const Watchup = () => {
         ],
         description : [
             "\"React js로 만든 첫 프로젝트, TMDb Api를 활용한 영화 정보 서비스 입니다.", 
-            "Router, SPA, Component 등 React의 기본 개념을 익혔으며, styled-components로 스타일링 하였습니다.\"", 
+            "Router, SPA, Component 등 React의 기본 개념을 익혔으며,",
+            "styled-components로 스타일링 하였습니다.\"", 
         ],
         challenges : [
+            "React Hooks",
+            "Infinite Scroll",
             "Hash / Browser Router 비교",
-            "Grid & Flex 연습",
-            "Infinite Scroll(React Hooks) 구현",
-            "React 프로젝트에 폰트 적용",
-            "Loading Component 활용",
-            "Proptypes 사용",
-            "Youtube Api & iframe 사용",
-
+            "Grid & Flex in CSS",
+            "Fonts in React project",
+            "Proptypes",
+            "Youtube Api & iframe",
         ],
         browsers: [
             "Chrome",
             "Firefox",
-            "Safari",
             "..."
         ],
         period: "2021.05 - 2021.06", 

@@ -24,18 +24,16 @@ const Portfolio = () => {
         ],
         
         challenges : [
-            "styled-components & SCSS 함께 활용",
-            "SCSS의 변수, @extend 등 활용",
-            "Grid & Flex 사용",
-            "React 구조 파악",
-            "Page-scroller 적용 (react-page-scroller)",
-            "Components 역할 분담",
-            "Font awesome 사용 (react-fontawesome)"
+            "@extend, variables in SCSS",
+            "CSS Grid & Flex",
+            "React 구조 설계",
+            "Page-scroller (react-page-scroller)",
+            "Components 기반 프로그래밍",
+            "Font awesome (react-fontawesome)"
         ],
         browsers: [
             "Chrome",
             "Firefox",
-            "Safari",
             "..."
         ],
         period: "2021.06 - 2021.07", 
@@ -45,7 +43,7 @@ const Portfolio = () => {
         shadowColor: "#77AAAD",
         bgColor: "#5b7e84",
         fontColor1: "#292828",
-        fontColor2: "#cdcdce",
+        fontColor2: "#e6e6e6",
     }
 
     return <DetailFrame data = {data} styles = {styles}/>

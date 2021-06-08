@@ -19,17 +19,17 @@ const Tada = () => {
             {name: "zeplin", url: require("Assets/zeplin.png")}
         ],
         description : [
-            "\"타다(TADA) 웹페이지를 Cloning 하여, 반응형 페이지로 구현했습니다.(PC/Tablet/Mobile).", 
-            "가독성을 높이고 원활한 유지보수를 위해 CSS 변수를 사용했습니다.", 
-            "Swiper.js Api를 프로젝트에 맞게 적용하고, Vanilla JS만을 사용하여 Javascript에 대한 이해도를 높였습니다.\"", 
+            "\"CSS 변수를 사용했으며, 반응형으로 구현했습니다.(PC/Tablet/Mobile).", 
+            "Vanilla.JS만을 사용하여 Javascript에 대한 이해도를 높였습니다.\"", 
 
         ],
         challenges : [
-            "반응형 레이아웃 (Media query)",
-            "Javascript 개념과 문법 익히기",
-            "외부 Api 분석 / 적용 (Swiper.js)",
-            "Scroll event에 따른 애니메이션 구현",
-            "DOM event 감지 (MutationObserver)"
+            "Responsive-web (Media query)",
+            "Vanilla JS",
+            "Swiper.js Api",
+            "Animation with Scroll events",
+            "DOM event 감지 (MutationObserver)",
+            "Zeplin 활용"
         ],
         browsers: [
             "Chrome",
@@ -43,8 +43,8 @@ const Tada = () => {
     const styles = {
         shadowColor: "#8090c4",
         bgColor: "#becad1",
-        fontColor1: "#19254d",
-        fontColor2: "#333333",
+        fontColor1: "#101f52",
+        fontColor2: "#111111",
     }
 
     return <DetailFrame data = {data} styles = {styles}/>

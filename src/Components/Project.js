@@ -12,19 +12,19 @@ const Projects = () => {
                         <div className="clickToDetail font-yellow">Click to Detail</div>
                         <span className="sampleImg"></span>
                         <h3><img alt="watchup" src={require("Assets/watchup/watchupLogo.png").default} /></h3>
-                        <p className="desc font-gray">"Movie information service with TMDB API"</p>
+                        <p className="desc font-gray">"Movie information service with TMDb API"</p>
                         <ul className="skills">
                             <li><span className="react" /><h5 className="font-gray">React</h5></li>
                             <li><span className="js" /><h5 className="font-gray">JS</h5></li>
                             <li><span className="html" /><h5 className="font-gray">HTML5</h5></li>
                         </ul>
-                        <ul className="tags">
+                        {/* <ul className="tags">
                             <li className="watchupTag">react-hooks</li>
                             <li className="watchupTag">styled-commponent</li>
                             <li className="watchupTag">grid</li>
                             <li className="watchupTag">tmdb.api</li>
                             <li className="watchupTag">youtube.api</li>
-                        </ul>
+                        </ul> */}
                     </Link>
                 </article>
                 <article className="portfolio">
@@ -39,12 +39,12 @@ const Projects = () => {
                             <li><span className="js" /><h5 className="font-white">JS</h5></li>
                             <li><span className="html" /><h5 className="font-white">HTML5</h5></li>
                         </ul>
-                        <ul className="tags">
+                        {/* <ul className="tags">
                             <li className="portfolioTag">grid</li>
                             <li className="portfolioTag">hash-router</li>
                             <li className="portfolioTag">styled-commponent</li>
                             <li className="portfolioTag">page-scroller</li>
-                        </ul>
+                        </ul> */}
                     </Link>
                 </article>
                 <article className="tada">
@@ -59,12 +59,12 @@ const Projects = () => {
                             <li><span className="css" /><h5>CSS3</h5></ li>
                             <li><span className="html" /><h5>HTML5</h5></li>
                         </ul>
-                        <ul className="tags">
+                        {/* <ul className="tags">
                             <li className="tadaTag">responsive</li>
                             <li className="tadaTag">swiper.js</li>
                             <li className="tadaTag">vanilla.js</li>
                             <li className="tadaTag">media-query</li>
-                        </ul>
+                        </ul> */}
                     </Link>
                 </article>
                 <article className="police">
@@ -79,12 +79,12 @@ const Projects = () => {
                             <li><span className="css" /><h5 className="font-gray">CSS3</h5></li>
                             <li><span className="html" /><h5 className="font-gray">HTML5</h5></li>
                         </ul>
-                        <ul className="tags">
+                        {/* <ul className="tags">
                             <li className="policeTag">kakapmap.api</li>
                             <li className="policeTag">IE8</li>
                             <li className="policeTag">web-standard</li>
                             <li className="policeTag">web-accessibility</li>
-                        </ul>
+                        </ul> */}
                     </Link>
                 </article>
             </div>

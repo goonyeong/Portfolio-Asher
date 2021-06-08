@@ -7,7 +7,7 @@ section.projectContainer{
     position: relative;
     h2.title{
         height: 3rem;
-        font-size: 40px;
+        font-size: 2rem;
         font-weight: 500;
         text-align: center;
         color: $green1;
@@ -46,7 +46,7 @@ section.projectContainer{
                 width: 100%;
                 height: 100%;
                 display: grid;
-                grid-template-rows: 3fr 1fr .5fr 1.2fr 1fr .5fr;
+                grid-template-rows: 4fr 1fr .6fr 1.2fr 1fr;
                 position: relative;
                 .clickToDetail{
                     opacity: 0;
@@ -72,20 +72,19 @@ section.projectContainer{
                 }
                 h3{
                     @extend %flex-right;
-                    padding-right: 1.5rem;
+                    padding-right: 2rem;
                     img{
                         width: 50%;
                     }
                 }
                 p.desc{
                     @extend %flex-right;
-                    padding-right: 1.5rem;
+                    padding-right: 2rem;
                     font-size: .6rem;
-                    font-weight: 300;
                 }
                 ul.skills{
                     @extend %flex-right;
-                    padding-right: 1.5rem;
+                    padding-right: 2rem;
                     font-size: .5rem;
                     li{
                         @extend %flex-center;
@@ -114,44 +113,45 @@ section.projectContainer{
                         }
                     }
                 }
-                ul.tags{
-                    @extend %flex-right;
-                    flex-wrap: wrap;
-                    align-items: flex-start;
-                    padding-right: 1.5rem;
-                    padding-left: 2rem;
-                    font-size: .6rem;
-                    li{
-                        border: .1rem solid;
-                        border-radius: 1rem;
-                        padding: .3rem .5rem;
-                        margin-left: .3rem;
-                        &.watchupTag{
-                            background-color: #ffffff;
-                            border-color: $gray1;
-                            color: $gray1;
-                            &::before{content: "#"; color: $gray1;}
-                        }
-                        &.portfolioTag{
-                            background-color: $green1;
-                            border-color: $green3;
-                            color: #fff;
-                            &::before{content: "#"; color: #fff;}
-                        }
-                        &.tadaTag{
-                            background-color: #d8d8d8;
-                            border-color: #404040;
-                            color: #404040;
-                            &::before{content: "#"; color: #404040;}
-                        }
-                        &.policeTag{
-                            background-color: #fff;
-                            border-color: #e9bb03;
-                            color: #04264c;
-                            &::before{content: "#"; color: $gray1;}
-                        }
-                    }
-                }
+                // ul.tags{
+                //     @extend %flex-right;
+                //     flex-wrap: wrap;
+                //     align-items: flex-start;
+                //     padding-right: 1.5rem;
+                //     padding-left: 2rem;
+                //     font-size: .6rem;
+                //     font-weight: 400;
+                //     li{
+                //         border: .1rem solid;
+                //         border-radius: .5rem 0 .5rem .5rem;
+                //         padding: .3rem .5rem;
+                //         margin-left: .3rem;
+                //         &.watchupTag{
+                //             background-color: #ffffff;
+                //             border-color: #404040;
+                //             color: #404040;
+                //             &::before{content: "#"; color: #404040;}
+                //         }
+                //         &.portfolioTag{
+                //             background-color: #ffffff;
+                //             border-color: #404040;
+                //             color: #404040;
+                //             &::before{content: "#"; color: #404040;}
+                //         }
+                //         &.tadaTag{
+                //             background-color: #ffffff;
+                //             border-color: #404040;
+                //             color: #404040;
+                //             &::before{content: "#"; color: #404040;}
+                //         }
+                //         &.policeTag{
+                //             background-color: #ffffff;
+                //             border-color: #404040;
+                //             color: #404040;
+                //             &::before{content: "#"; color: #404040;}
+                //         }
+                //     }
+                // }
 
             }
         }

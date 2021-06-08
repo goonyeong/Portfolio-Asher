@@ -15,7 +15,7 @@ const Introduction = () => {
                 <li><strong>Job</strong> / Front-end Developer</li>
             </ul>
             <article className="language">
-                <h3>Languages</h3>
+                <h3>Programming</h3>
                 <div className="skillbox">
                     <span className="skillIcon html" />
                     <h4>HTML5</h4>
@@ -46,6 +46,10 @@ const Introduction = () => {
                 <div className="skillbox">
                     <span className="skillIcon github" />
                     <h4>Github</h4>
+                </div>
+                <div className="skillbox">
+                    <span className="skillIcon git" />
+                    <h4>Git</h4>
                 </div>
                 <div className="skillbox">
                     <span className="skillIcon figma" />

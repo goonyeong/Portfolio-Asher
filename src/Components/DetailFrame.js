@@ -108,12 +108,12 @@ const MoveTo = styled.a`
 const Container2 = styled.div`
     width: 70%;
     height: 100%;
-    padding: 3rem 2rem;
+    padding: 3rem 3rem;
     border-radius: 2rem;
     display: grid;
     letter-spacing: .07rem;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 2.5fr 2fr 1fr;
     animation: initailAppear2 3s ease-in-out;
     @keyframes initailAppear2{
         from{opacity: 0; transform: translateX(6rem)}
@@ -143,7 +143,7 @@ const SkillList = styled.ul`
 const Skill = styled.li`
     width: 2.5rem;
     height: 2.5rem;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     background-image: url(${props => props.bgImg});
     background-position: center;
     background-size: cover;
@@ -155,11 +155,18 @@ const Desc = styled.ul`
     grid-row: 2/3;
     grid-column: 1/3;
     align-self: center;
-    padding: 0 2rem;
+    width: 80%;
+    margin: 0 2rem;
+    padding: 1rem 1rem;
+    background-color: rgba(80, 80, 80, .2);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     li{
-        font-size: .9rem;
+        font-size: .8rem;
         font-style: italic;
-        margin-bottom: 1rem;
+        padding: .5rem 0;
     }
 `;
 
@@ -172,6 +179,7 @@ const Browsers = styled.div`
     h5{
         margin-bottom: 1.2rem;
         font-size: 1rem;
+        font-weight: 500;
     }
     
 `;
@@ -195,6 +203,7 @@ const Period = styled.p`
     grid-row: 4/5;
     padding: 0 2rem;
     font-size: 1rem;
+    font-weight: 500;
 `;
 
 const Challenges = styled.div`
@@ -205,6 +214,7 @@ const Challenges = styled.div`
     h5{
         font-size: 1rem;
         margin-bottom: 1.2rem;
+        font-weight: 500;
     }
 `;
 
@@ -258,9 +268,9 @@ const DetailFrame = ({data, styles}) => {
                         )}
                     </ChallengeList>
                 </Challenges>
-                <Period>Project Period / {data.period}</Period>
+                <Period>Period / {data.period}</Period>
                 <Browsers>
-                    <h5>Supported Browers</h5>
+                    <h5>Browers</h5>
                     <BrowserList>
                         {data.browsers.map(browser => 
                             <li style = {{color: styles.fontColor2}}>

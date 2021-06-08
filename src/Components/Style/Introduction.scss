@@ -14,7 +14,7 @@ section.IntroContainer{
     position: relative;
     h2.title{
         grid-column: 1/9;
-        font-size: 40px;
+        font-size: 2rem;
         font-weight: 500;
         justify-self: center;
         align-self: center;
@@ -38,7 +38,7 @@ section.IntroContainer{
         width: 100%;
         align-self: center;
         li{
-            font-size: 15px;
+            font-size: .75rem;
             line-height: 1.4;
             color: #666;
             &:not(:last-child){
@@ -46,8 +46,9 @@ section.IntroContainer{
             }
             &.desc{
                 color: #999;
-                font-size: 14px;
+                font-size: .7rem;
                 font-style: italic;
+                line-height: 1.8;
                 margin-bottom: 15px;
             }
             strong{
@@ -104,6 +105,7 @@ section.IntroContainer{
                 &.react{background-image: url("../../Assets/react.png");}
                 &.jquery{background-image: url("../../Assets/jquery.png");}
                 &.github{background-image: url("../../Assets/github.png");}
+                &.git{background-image: url("../../Assets/git.svg");}
                 &.figma{background-image: url("../../Assets/figma.png");}
                 &.photoshop{background-image: url("../../Assets/photoshop.png");}
                 &.zeplin{background-image: url("../../Assets/zeplin.png");}
