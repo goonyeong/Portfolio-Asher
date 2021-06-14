@@ -24,7 +24,7 @@ const Container1 = styled.div`
     display: grid;
     grid-template-rows: 7fr 1fr 1fr .3fr;
     position: relative;
-    animation: initailAppear1 3s ease-in-out;
+    animation: initailAppear1 1.5s ease-in-out;
     @keyframes initailAppear1{
         from{opacity: 0; transform: translateX(-6rem)}
         to{opacity: 1; ; transform: translateX(0)}
@@ -114,7 +114,7 @@ const Container2 = styled.div`
     letter-spacing: .07rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2.5fr 2fr 1fr;
-    animation: initailAppear2 3s ease-in-out;
+    animation: initailAppear2 1.5s ease-in-out;
     @keyframes initailAppear2{
         from{opacity: 0; transform: translateX(6rem)}
         to{opacity: 1; ; transform: translateX(0)}
