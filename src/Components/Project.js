@@ -12,11 +12,32 @@ const Projects = () => {
                         <div className="clickToDetail font-yellow">Click to Detail</div>
                         <span className="sampleImg"></span>
                         <h3><img alt="watchup" src={require("Assets/watchup/watchupLogo.png").default} /></h3>
-                        <p className="desc font-gray">"Movie information service with TMDb API"</p>
+                        <p className="desc font-gray">"Movie information service"</p>
                         <ul className="skills">
                             <li><span className="react" /><h5 className="font-gray">React</h5></li>
                             <li><span className="js" /><h5 className="font-gray">JS</h5></li>
                             <li><span className="html" /><h5 className="font-gray">HTML5</h5></li>
+                        </ul>
+                        {/* <ul className="tags">
+                            <li className="watchupTag">react-hooks</li>
+                            <li className="watchupTag">styled-commponent</li>
+                            <li className="watchupTag">grid</li>
+                            <li className="watchupTag">tmdb.api</li>
+                            <li className="watchupTag">youtube.api</li>
+                        </ul> */}
+                    </Link>
+                </article>
+                <article className="momentum">
+                    <Link className="link" to="/watchup">
+                        <div className="clickToDetail">Click to Detail</div>
+                        <span className="sampleImg"></span>
+                        <h3><img alt="watchup" src={require("Assets/watchup/watchupLogo.png").default} /></h3>
+                        <p className="desc">"Todo list with initial page"</p>
+                        <ul className="skills">
+                            <li><span className="react" /><h5>React</h5></li>
+                            <li><span className="redux" /><h5>Redux</h5></li>
+                            <li><span className="js" /><h5>JS</h5></li>
+                            <li><span className="html" /><h5>HTML5</h5></li>
                         </ul>
                         {/* <ul className="tags">
                             <li className="watchupTag">react-hooks</li>

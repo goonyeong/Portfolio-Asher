@@ -14,11 +14,11 @@ section.projectContainer{
     }
     div.projects{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         height: calc(100vh - 8rem);
         article{
             width: 90%;
-            height: 70%;
+            height: 60%;
             position: relative;
             justify-self: center;
             align-self: center;
@@ -32,6 +32,10 @@ section.projectContainer{
             &.portfolio{
                 background-color: rgba(119, 170, 173, .7);
                 &:hover{box-shadow: 0 0 3rem #f7f7f7;}
+            }
+            &.momentum{
+                background-color: rgba(255, 255, 255, .7);
+                &:hover{box-shadow: 0 0 3rem #ce85dd;}
             }
             &.tada{
                 background-color: rgba(235, 240, 243, .7);
@@ -55,7 +59,7 @@ section.projectContainer{
                     right: 50%;
                     transform: translate(50%, -50%);
                     transition: opacity .5s;
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     font-style: italic;
                 }
                 &>span, h3, p, ul{
@@ -104,6 +108,7 @@ section.projectContainer{
                             &.js{background-image: url("../../Assets/js.png");}
                             &.scss{background-image: url("../../Assets/scss.png");}
                             &.react{background-image: url("../../Assets/react.png");}
+                            &.redux{background-image: url("../../Assets/redux.png");}
                             &.jquery{background-image: url("../../Assets/jquery.png");}
                             &.zeplin{background-image: url("../../Assets/zeplin.png");}
                         }
