@@ -1,7 +1,8 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Route, Redirect} from "react-router-dom";
 import Home from 'Pages/Home';
 import Watchup from 'Pages/Watchup';
+import Momentum from 'Pages/Momentum';
 import Portfolio from 'Pages/Portfolio';
 import Tada from 'Pages/Tada';
 import Police from 'Pages/Police';
@@ -11,6 +12,7 @@ const RouterComponent = () => {
         <Router>
             <Route path="/" component={Home}></Route>
             <Route path="/watchup" component={Watchup}></Route>
+            <Route path="/momentum" component={Momentum}></Route>
             <Route path="/portfolio" component={Portfolio}></Route>
             <Route path="/tada" component={Tada}></Route>
             <Route path="/police" component={Police}></Route>

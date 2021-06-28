@@ -165,7 +165,6 @@ const Desc = styled.ul`
     align-content: center;
     li{
         font-size: .8rem;
-        font-style: italic;
         padding: .5rem 0;
     }
 `;
