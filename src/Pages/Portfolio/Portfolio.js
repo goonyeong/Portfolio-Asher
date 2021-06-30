@@ -28,7 +28,7 @@ const Portfolio = () => {
             "CSS Grid & Flex",
             "React 구조 설계",
             "Page-scroller (react-page-scroller)",
-            "Components 기반 프로그래밍",
+            "Component-oriented programming",
             "Font awesome (react-fontawesome)"
         ],
         browsers: [
